@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f9;
+  color: #333;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.share-section {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 300px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.share-section h2 {
+  margin-top: 0;
+}
+#share-max-value, #share-min-value {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+#share-max-fy, #share-min-fy {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 10px;
+}
